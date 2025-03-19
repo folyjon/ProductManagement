@@ -4,7 +4,8 @@ public class StorageContainerSettings
 {
     public const string SectionName = "StorageContainers";
     
-    public Dictionary<string, StorageContainerConfig> StorageContainers { get; set; } = new();
+    public StorageContainerConfig ProductFiles { get; set; }
+    public StorageContainerConfig Reports { get; set; }
 }
 
 public class StorageContainerConfig

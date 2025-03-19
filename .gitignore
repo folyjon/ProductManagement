@@ -164,3 +164,7 @@ node_modules/
 # Local History for Visual Studio Code
 .history/
 
+
+appsettings.Development.json
+appsettings.*.json
+!appsettings.json
